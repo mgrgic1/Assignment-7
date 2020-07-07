@@ -1,0 +1,69 @@
+#catMain {
+    width:20%;
+    margin-top: 10px;
+    margin-bottom: -20px;
+    text-align:center;
+}
+
+#transactionTable {
+    table-layout: fixed;
+    width:100%;
+}
+
+#transactionTable th {
+    text-align:left;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+.credits input,
+.debits input
+ {
+    padding-right:20px;
+    margin-top: 50px;
+    margin-right: 20px;
+}
+
+
+
+#transactionTable td {
+    padding-top: 5px;
+}
+
+
+
+#refLink {
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+#mainText{
+    color: white;
+    font-size: 40px;
+}
+
+.credits h1,
+.debits h1
+ {
+    color:white;
+    margin-left: 5px;
+    font-size: 40px;
+}
+
+#accountBalance {
+    position: relative;
+    bottom:0;
+    margin-top: 50px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+body {
+    background-color: #4b7bec;
+}
+
+#refLink:hover{ 
+color: white;
+
+}
